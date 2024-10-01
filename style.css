@@ -39,6 +39,7 @@ body::-webkit-scrollbar-thumb{
     position: fixed;
     top: 0;
     left: 0;
+    height: 60px;
     right: 0;
     background-color: #171f30;
     z-index: 100;
@@ -77,6 +78,7 @@ nav .logo {
 nav .logo .logo_name{
     font-size: 2.4rem;
     color: #4fa1ff;
+    margin-bottom: 0;
 }
 .nav_menu-btn {
     display: none;
@@ -264,6 +266,14 @@ nav .nav_search .input_box {
     font-weight: 500;
     
 }
+.nav_menu-list-item.nav-item_active {
+    background-color: #4fa1ff;
+    border-radius: 15px;
+}
+.nav_menu-list-item.nav-item_active a span ,
+.nav_menu-list-item.nav-item_active a i {
+    color: #fff !important;
+}
 .setting_account-btn>a{
     position: relative;
 }
@@ -410,7 +420,7 @@ nav .nav_search .input_box {
 
 
 #content {
-    margin-top: 5rem;
+    margin-top: 60px;
 }
 .popular-courses {
    
