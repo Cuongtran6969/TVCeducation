@@ -17,3 +17,41 @@ nav .nav_search i {
     top: 0;
     background-color: rgba(102, 117, 148, 0.295);
 } */
+.course-lesson_list {
+    width: 100%;
+}
+.course-lesson_list .course-chapter_item {
+    display: block;
+    background-color: #bebcdb;
+    padding: 8px;
+    border-radius: 5px;
+}
+.dropdown-menu {
+    width: 100%;
+}
+.learning__lesson-item {
+    background-color: #fff;
+    opacity: 1;
+    pointer-events: all;
+}
+.learning__lesson-item::after {
+    content: "\f146";
+    cursor: pointer;
+}
+.learning__lesson-item::after :hover {
+    color: red;
+}
+.learning__lesson-item:hover {
+    background-color: rgba(236, 236, 236, 0.527);
+}
+.learning_lesson-add {
+    background-color: #4fa1ffc7;
+    color: #fff;
+}
+.learning__lesson-item.learning_lesson-add:hover {
+    background-color: #4fa1ff;
+}
+.learning__lesson-item.learning_lesson-add::after {
+    content: "\2b";
+    color: #fff;
+}
